@@ -16,16 +16,16 @@ A Flask-based web application that classifies brain MRI scans into:
 
 ## Model Performance
 - Validation Accuracy: ~98%
-![Accuracy Result](Screenshots/accuracy.png)
-![Accuracy Result](Screenshots/loss_vs_accuracy.png)
+![Accuracy Result](screenshots/accuracy.png)
+![Accuracy Result](screenshots/loss_vs_accuracy.png)
 
 
 ## Application Preview
 
-![Prediction Result](Screenshots/prediction_1.png)
-![Prediction Result](Screenshots/prediction_2.png)
-![Prediction Result](Screenshots/prediction_3.png)
-![Prediction Result](Screenshots/prediction_4.png)
+![Prediction Result](screenshots/prediction_1.png)
+![Prediction Result](screenshots/prediction_2.png)
+![Prediction Result](screenshots/prediction_3.png)
+![Prediction Result](screenshots/prediction_4.png)
 
 ## Features
 - MRI image upload
