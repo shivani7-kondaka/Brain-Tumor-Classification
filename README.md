@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 I couldn't add the model file because it exceeded the GitHub storage limit.
 
 # Brain Tumor Classification Using Deep Learning
@@ -42,4 +42,3 @@ pip install -r requirements.txt
 python app.py
 =======
 
->>>>>>> 23bbb74b2658d7f0b6fc860a4421c93c2519484a
