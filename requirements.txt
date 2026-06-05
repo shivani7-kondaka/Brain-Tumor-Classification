@@ -1,0 +1,8 @@
+os
+numpy 
+PIL 
+tensorflow
+sklearn
+seaborn
+random
+flask

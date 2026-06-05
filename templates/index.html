@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Brain Tumor Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>Brain Tumor Classification</h1>
+        <p>Upload an MRI scan and predict tumor type using CNN</p>
+    </div>
+
+    <div class="main-grid">
+
+        <!-- Upload Section -->
+        <div class="card">
+
+            <h3 class="section-title">UPLOAD MRI IMAGE</h3>
+
+            <form action="/" method="POST" enctype="multipart/form-data">
+
+                <label class="upload-box">
+
+                    <input type="file" name="file" required>
+
+                    <div class="upload-content">
+                        <h2>UPLOAD</h2>
+                        <h3>Drop MRI Image Here</h3>
+                        <p>JPG, PNG, JPEG Supported</p>
+                    </div>
+
+                </label>
+
+                <button class="predict-btn" type="submit">
+                    Classify Tumor
+                </button>
+
+            </form>
+
+            <div class="note">
+                Trained with VGG16 model | 98% Accuracy
+            </div>
+
+        </div>
+
+        <!-- Result Section -->
+        <div class="right-panel">
+
+            <div class="card">
+
+                <h3 class="section-title">PREDICTION RESULT</h3>
+
+                <div class="result-box">
+
+                    {% if result %}
+                        <h2 class="Prediction">{{ result }}</h2>
+                        <p> Confidence: {{confidence}}%</p>
+                    <img src = "{{file_path}}" class="img-fluid rounded" alt = "MRI Image">
+                </div>
+                {% endif %}
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
