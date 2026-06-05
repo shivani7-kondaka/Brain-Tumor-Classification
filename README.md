@@ -22,10 +22,10 @@ A Flask-based web application that classifies brain MRI scans into:
 
 ## Application Preview
 
-![Prediction Result](Screenshots/prediction -1.png)
-![Prediction Result](Screenshots/prediction -2.png)
-![Prediction Result](Screenshots/prediction -3.png)
-![Prediction Result](Screenshots/prediction -4.png)
+![Prediction Result](Screenshots/prediction_1.png)
+![Prediction Result](Screenshots/prediction_2.png)
+![Prediction Result](Screenshots/prediction_3.png)
+![Prediction Result](Screenshots/prediction_4.png)
 
 ## Features
 - MRI image upload
