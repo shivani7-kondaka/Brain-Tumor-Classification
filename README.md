@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+I couldn't add the model file because it exceeded the GitHub storage limit.
+
 # Brain Tumor Classification Using Deep Learning
 
 A Flask-based web application that classifies brain MRI scans into:
